@@ -22,16 +22,15 @@ text-transform: uppercase;
 }
 .double{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-wrap: wrap;
-margin-top:5%;
+  gap: 20px;
 }
 .parabox{
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   padding: 20px;
   width: 45%;
   height: auto;
-  margin-left: 2.5%;
 }
 .imgs{
   width: 45%;
@@ -62,3 +61,40 @@ footer{
   text-align: center;
   height: 60px;
 }
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+@media only screen and (max-width:450px) {
+  .double{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .parabox{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    width: 95%;
+    height: auto;
+  }
+  .imgs{
+    width: 95%;
+    height: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  .home{
+    color: white;
+    position: absolute;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  }
+}
+
