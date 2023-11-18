@@ -48,6 +48,7 @@ text-transform: uppercase;
 }
 .card{
   margin: 20px;
+  margin-bottom:20px;
 }
 footer{
   position: fixed;
@@ -88,6 +89,7 @@ a{
     padding: 20px;
     display: flex;
     align-items: center;
+    margin-bottom:20px;
   }
   .home{
     color: white;
