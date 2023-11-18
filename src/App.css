@@ -44,7 +44,7 @@ text-transform: uppercase;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-margin-bottom: 60px;
+margin-bottom: 80px;
 }
 .card{
   margin: 20px;
@@ -89,7 +89,7 @@ a{
     padding: 20px;
     display: flex;
     align-items: center;
-   margin-bottom: 60px;
+ margin-bottom: 80px;
   }
   .home{
     color: white;
